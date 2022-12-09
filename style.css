@@ -38,6 +38,26 @@
      }
   }
 
+/* this is for Iptv */
+
+  .responsive-image3 {
+    max-width: 100%;
+    align-items: center; 
+    display:block; 
+    height: auto;
+  }
+
+  @media (min-width: 480px) { 
+    .responsive-image3 {
+      min-height: 125px
+     }
+  }
+  @media (min-width: 768px) {
+    .responsive-image3 {
+      min-height: 255px
+     }
+  }
+
   button {
     margin: auto;
     width: 160px;
